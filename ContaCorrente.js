@@ -12,4 +12,10 @@ export class ContaCorrente extends Conta{
         let taxa = 1.1;
         return this._sacar(valor, taxa);
     }
+
+    get saldo() {
+        console.log(super.saldo);
+
+        return `Saldo conta corrente: ${this._saldo}`;
+    }
 }

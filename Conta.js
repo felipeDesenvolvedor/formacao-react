@@ -17,7 +17,7 @@ export class Conta {
     }
 
     get saldo() {
-        return this._saldo;
+        return `Saldo conta: ${this._saldo}`;
     }
 
     sacar(valor) {

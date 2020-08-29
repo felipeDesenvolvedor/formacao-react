@@ -13,4 +13,4 @@ contaPoupanca.sacar(10);
 
 
 console.log(contaPoupanca);
-console.log(contaCorrenteRicardo)
+console.log(contaCorrenteRicardo.saldo)
